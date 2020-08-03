@@ -26,7 +26,7 @@ def predict():
     		pred = np.round(pred)
 		
     
-	return render_template('index.html',prediction = pred)
+	return render_template('index.html',pred)
 
 
 
